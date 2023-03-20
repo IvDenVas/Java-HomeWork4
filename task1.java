@@ -10,8 +10,8 @@ public class task1 {
         lklist.add(5);
         lklist.add(6);
 
-        System.out.println(lklist);
-        System.out.println(reverse(lklist));
+        System.out.println("Начальный LinkedList: " + lklist);
+        System.out.println("После метода: " + reverse(lklist));
     }
 
     public static LinkedList<Integer> reverse(LinkedList<Integer> a) {
